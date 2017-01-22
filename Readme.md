@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Maxim Chsherbakov](https://up.htmlacademy.ru/htmlcss/16/user/348269).
-* Наставник: `Неизвестно`.
+* Наставник: [Ольга Одноколова](https://htmlacademy.ru/profile/id38936)
 
 ---
 
