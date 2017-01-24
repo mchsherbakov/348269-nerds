@@ -34,42 +34,33 @@
       <div class="catalog-title">
         <h1 class="catalog-title"> Магазин готовых шаблонов </h1>
      </div>
-    <section class="catalog-block">
+  <div class="page-body">
+    <div class="left-column">
+    <form class="catalog-block">
       <div class="price-filter">
-        <table>
-          <caption> <b>СТОИМОСТЬ:</b> </caption>
-          <tr>
-            <td colspan="4"><input type="range" min="0" max="15000" value="500"> </td>
-          </tr>
-          <tr>
-            <td> от </td>
-            <td><input type="text" name="from" value="0"></input></td>
-            <td> до </td>
-            <td><input type="text" name="until" value="15 000"></input></td>
-          </tr>
-        </table>
+        <h3 class="price-filter-title"> стоимость: </h3>
       </div>
       <div class="grid-selector">
         <h3 class="grid-selector-title"> сетка: </h3>
-        <input type="radio" name="adaptive" value="adaptive"> Адаптивная </input><br>
-        <input type="radio" name="fixed" value="adaptive"> Фиксированная </input><br>
-        <input type="radio" name="elastic" value="adaptive"> Резиновая </input><br>
+        <div class="grid-sel-btn"><label><input type="radio" name="grid-sel-rbtn" value="adaptive"> Адаптивная </label></div>
+        <div class="grid-sel-btn"><label><input type="radio" name="grid-sel-rbtn" value="adaptive"> Фиксированная </label></div>
+        <div class="grid-sel-btn"><label><input type="radio" name="grid-sel-rbtn" value="adaptive"> Резиновая </label></div>
       </div>
       <div class="site-speciality-selector">
         <h3 class="site-speciality-title"> особенности: </h3>
-        <input type="checkbox" value="slider"> Слайдер </input><br>
-        <input type="checkbox" value="block"> Блок преимуществ </input><br>
-        <input type="checkbox" value="news"> Новости </input><br>
-        <input type="checkbox" value="gallery"> Галерея </input><br>
-        <input type="checkbox" value="basket"> Корзина </input><br>
+        <div class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb" value="slider"> Слайдер </label></div>
+        <div class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb" value="block"> Блок преимуществ </label></div>
+        <div class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb" value="news"> Новости </label></div>
+        <div class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb" value="gallery"> Галерея </label></div>
+        <div class="speciality-chkb"><label><input type="checkbox" value="basket"> Корзина </label></div>
       </div>
       <div class="catalog-block-btn">
-        <a href="#" > Показать </a>
+        <input type="submit" name="catalog-show-btn" value="Показать">
       </div>
-      </section>
-<br>
-<br>
-    <div class="gallery-filter">
+    </form>
+  </div>
+  <div class="sample-list">
+     <div class="gallery-filter">
       <h3 class="gallery-filter-title"> СОРТИРОВАТЬ: </h3>
       <a href="#"> по цене </a>
       <a href="#"> по типу </a>
@@ -78,61 +69,43 @@
       <a href="#"> up </a>
     </div>
 <!-- Gallery-sample-->
-    <div class="gallery-sample-1">
-      <button class="slider-btn-1" type="button"></button>
-      <button class="slider-btn-2" type="button"></button>
-      <button class="slider-btn-3" type="button"></button>
+    <div class="gallery-sample">
+      <button class="slider-btn" type="button" name="pic-1"></button>
+      <button class="slider-btn" type="button" name="pic-2"></button>
+      <button class="slider-btn" type="button" name="pic-3"></button>
 
-    <figure class="gallery-content">
+    <div class="gallery-content">
     <img src="http://placehold.it/150x100" width="150" height="100" alt="Nerds">
-    </figure>
-    <a href="#"> 9 900 РУБ.</a>
     </div>
-    <div class="gallery-sample-2">
-      <button class="slider-btn-1" type="button"></button>
-      <button class="slider-btn-2" type="button"></button>
-      <button class="slider-btn-3" type="button"></button>
-
-    <figure class="gallery-content">
+     <a href="#"> 9 900 РУБ.</a>
+    </div>
+    <div class="gallery-sample">
+    <div class="gallery-content">
     <img src="http://placehold.it/150x100" width="150" height="100" alt="Nerds">
-    </figure>
+  </div>
     </div>
-    <div class="gallery-sample-3">
-      <button class="slider-btn-1" type="button"></button>
-      <button class="slider-btn-2" type="button"></button>
-      <button class="slider-btn-3" type="button"></button>
-
-    <figure class="gallery-content">
+    <div class="gallery-sample">
+    <div class="gallery-content">
     <img src="http://placehold.it/150x100" width="150" height="100" alt="Nerds">
-    </figure>
+  </div>
     </div>
-    <div class="gallery-sample-4">
-      <button class="slider-btn-1" type="button"></button>
-      <button class="slider-btn-2" type="button"></button>
-      <button class="slider-btn-3" type="button"></button>
-
-    <figure class="gallery-content">
+    <div class="gallery-sample">
+    <div class="gallery-content">
     <img src="http://placehold.it/150x100" width="150" height="100" alt="Nerds">
-    </figure>
+  </div>
     </div>
-    <div class="gallery-sample-5">
-      <button class="slider-btn-1" type="button"></button>
-      <button class="slider-btn-2" type="button"></button>
-      <button class="slider-btn-3" type="button"></button>
-
-    <figure class="gallery-content">
+    <div class="gallery-sample">
+    <div class="gallery-content">
     <img src="http://placehold.it/150x100" width="150" height="100" alt="Nerds">
-    </figure>
+  </div>
     </div>
-    <div class="gallery-sample-6">
-      <button class="slider-btn-1" type="button"></button>
-      <button class="slider-btn-2" type="button"></button>
-      <button class="slider-btn-3" type="button"></button>
-
-    <figure class="gallery-content">
+    <div class="gallery-sample">
+    <div class="gallery-content">
     <img src="http://placehold.it/150x100" width="150" height="100" alt="Nerds">
-    </figure>
+  </div>
     </div>
+  </div>
+</div>
     <div class="page-nav">
       <a href="#"> 1 </a>
       <a href="#"> 2 </a>
@@ -141,15 +114,13 @@
     </div>
 
     </main>
-    <hr>
-    <br>
-    <br>
+  </div>
     <footer class="main-footer">
+      <div class="address-on-map">
+         <img src="http://placehold.it/150x100" width="150" height="100" alt="">
+      </div>
       <div class="container">
-        <section class="address-on-map">
-           <img src="http://placehold.it/150x100" width="150" height="100" alt="">
-        </section>
-        <section class="footer-contacts">
+        <div class="footer-contacts">
         <h3 class="footer-contacts-title"> NЁRDS DESIGN STUDIO</h3>
         <p>
           1911186, Санкт-Петербург,<br>
@@ -157,14 +128,18 @@
           тел. +7(812)275-75-75
         </p>
       <a class="btn-mail" href="#"> напишите нам </a>
-       </section>
-       <section class="footer-social">
+    </div>
+       <div class="footer-social">
+         <div class="promo">
          <h2 class="footer-social-title"> Давайте дружить, это выгодно! </h2>
          <p> Скидка 10% для друзей из социальных сетей. </p>
-         <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-         <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-         <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-      </section>
+         </div>
+         <div class="social-media-box">
+         <a class="social-btn social-btn" href="#">Вконтакте</a>
+         <a class="social-btn social-btn" href="#">Фейсбук</a>
+         <a class="social-btn social-btn" href="#">Инстаграм</a>
+       </div>
+     </div>
       </div>
     </footer>
 </body>
