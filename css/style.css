@@ -5,6 +5,11 @@ body {
     line-height: 24px;
     font-weight: normal;
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 h1 {
     font-size: 55px;
     font-family: Roboto;
@@ -18,4 +23,155 @@ h2 {
    color: #000000;
    line-height: 30px;
    font-weight:  normal;
+}
+.main-header {
+  outline-color: green solid 1px;
+  margin-bottom: 18px;
+}
+.container {
+  width: 1160px;
+  padding: 0 20px;
+  margin: 0 auto;
+  outline: darkcyan solid 1px;
+  margin-bottom: 18px;
+}
+.main-navigation {
+  outline: blue solid 1px;
+  width: 980px;
+  float: left;
+}
+.basket {
+  outline: red solid 1px;
+  width: 160px;
+  height: 65px;
+  float: right;
+}
+.slider {
+  width: 1160px;
+  outline: magenta solid 1px;
+  margin-bottom: 80px;
+}
+/*.about-us-features { не знаю как быть с картинками и текстом???
+  width: ;
+}*/
+.services {
+  width: 1100px;
+  outline: black solid 1px;
+  margin-bottom: 80px;
+}
+.services-items {
+  width: 300px;
+  height: 347px;
+  outline: pink solid 1px;
+}
+.si-left {
+  float: left;
+}
+.si-center {
+  float: left;
+  margin-left: 100px;
+}
+.si-right {
+  float: right;
+}
+.about-us {
+  width: 1160px;
+  outline: green solid 1px;
+  margin-bottom: 70px;
+}
+.about-us-content {
+  width: 700px;
+  float: left;
+  outline: blue solid 1px;
+}
+.about-us-statistic {
+  width: 400px;
+  float: right;
+  margin-left: 60px;
+  outline: blue solid 1px;
+}
+.our-project-links {
+  width: 1160px;
+  outline: grey solid 1px;
+  margin-bottom: 53px;
+}
+.project-link {
+  width: 260px;
+  height: 180px;
+  margin-right: 40px;
+  outline: cyan solid 1px;
+  float: left;
+}
+.project-link:last-child {
+  float: right;
+  margin-right: 0;
+}
+.footer-contacts {
+  width: 320px;
+  height: 310px;
+  margin-top: 55px;
+  outline: red solid 1px;
+}
+.footer-social {
+  width: 1160px;
+  height: 216px;
+  margin-top: 55px;
+  outline: orange solid 1px;
+}
+.promo {
+  width: 760px;
+  height: 217px;
+  outline: black solid 1px;
+}
+.social-media-box {
+  width: 300px;
+  heigth: 217px;
+  float: left;
+  outline: black solid 1px;
+}
+.catalog-title {
+  width: 1160px;
+  height: 165px;
+  background-color: orange;
+}
+.page-body {
+  width: 1160px;
+  background-color: lightgreen;
+}
+.left-column {
+  width: 260px;
+  height: 780px;
+  background-color: darkcyan;
+  margin: 56px 140px 0 0;
+  float: left;
+}
+.sample-list {
+  width: 760px;
+  height: 2000px;
+  float: right;
+  margin-top: 56px;
+  background-color: coral;
+}
+.gallery-sample {
+  width: 360px;
+  height: 618px;
+  outline: cyan solid 1px;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 37px;
+}
+.gallery-sample:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+}
+.page-nav {
+  width: 480px;
+  height: 50px;
+  background-color: brown;
+  float: left;
+  margin-top: 62px;
+}
+.gallery-filter {
+  width: 760px;
+  height: 78px;
 }

@@ -7,11 +7,9 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
-        <div class="index-logo">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Nerds">
-        </div>
+      <div class="container clearfix">
         <nav class="main-navigation">
+          <a ><img src="img/nerds-logo.png" width="160" height="65" alt="Nerds-logo"></a>
           <ul>
             <li>
               <a href="#"> студия </a>
@@ -26,48 +24,48 @@
               <a href="#"> контакты </a>
         </nav>
       <div class="basket">
-        <a hrey="basket" href="#"> корзина </a>
+        <a hrey="basket" href="#"> <img src="img/cart-icon.png" width="15" height="15" alt="basket">корзина </a>
       </div>
       </div>
     </header>
     <main class="container">
 <!--Slider-->
     <div class="slider">
-      <h1> Долго, дорого, скрупулезно. </h1>
+      <div class="about-us-features"><h1> Долго, дорого, скрупулезно. </h1>
       <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-
+      </div>
       <a href="#"> узнать больше </a><br>
-    <figure class="slider-content">
+      <div class="slider-content">
       <img src="img/slide1.png" width="698" height="413" alt="Nerds">
-    </figure>
+      </div>
 <!--Slider_buttons-->
       <button class="slider-button" type="button" name="btn-1"></button>
       <button class="slider-button" type="button" name="btn-2"></button>
       <button class="slider-button" type="button" name="btn-3"></button>
     </div>
-    <section class="services">
-    <div class="services-items">
-      <img src="img/illustration-1.png" width="300" height="146" alt="Nerds">
+    <section class="services clearfix">
+    <div class="services-items si-left">
+      <img src="img/illustration-1.jpg" width="300" height="146" alt="Nerds">
       <h2 class="services-name"> веб-сайты </h2>
       <p> Мир никогда не будет прежним после того как увидет ваш сайт </p>
       <a href="#"> заказать </a>
     </div>
-    <div>
-      <img src="img/illustration-2.png" width="300" height="146" alt="Nerds">
+    <div class="services-items si-center">
+      <img src="img/illustration-2.jpg" width="300" height="146" alt="Nerds">
       <h2 class="services-name"> приложения </h2>
       <p> Покорите топ-10 приложений в AppStore и Google Play </p>
       <a href="#"> заказать </a>
     </div>
-    <div>
-      <img src="img/illustration-3.png" width="300" height="146" alt="Nerds">
+    <div class="services-items si-right">
+      <img src="img/illustration-3.jpg" width="300" height="146" alt="Nerds">
       <h2 class="services-name"> презентации </h2>
       <p> Вы даже не подозреваете насколько вы изумительны! </p>
       <a href="#"> заказать </a>
     </div>
   </section>
-  <section class="about-us">
+  <section class="about-us clearfix">
     <div class="about-us-content">
-    <h1 class="about-us-title">Мы - маленькая, но гордая дизайн-студия из Краснодара.</h1>
+    <p class="about-us-lead"><b>Мы - маленькая, но гордая дизайн-студия из Краснодара.<b></p>
     <p> Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы. </p>
     <ul class="our-work">
       <h3 class="our-work-list"> выполняем заказы на разработку: </h3>
@@ -79,7 +77,7 @@
     <div class="about-us-statistic">
       <img src="img/nerds-illustration.jpg" width="360" height="208" alt="Nerds">
       <table>
-        <caption class="about-us-statistic"> с 2004 года любим точность во всем: </caption>
+        <caption> с 2004 года любим точность во всем: </caption>
         <tr>
           <td> 146% </td>
           <td> 100% </td>
@@ -93,17 +91,25 @@
       </table>
     </div>
  </section>
-    <div class="our-project-links">
-      <a class="our-project-links" href="#"> html-academy </a>
-      <a class="our-project-links" href="#"> Barbershop-Borodinski </a>
-      <a class="our-project-links" href="#"> Pink </a>
-      <a class="our-project-links" href="#"> MISHKA </a>
+    <div class="our-project-links clearfix">
+      <div class="project-link">
+        <a href="#"><img src="img/logo-1.png" width="199" height="68" alt="html-academy"></a>
+      </div>
+      <div class="project-link">
+        <a href="#"><img src="img/logo-2.png" width="209" height="90" alt="Barbershop-Borodinski"></a>
+      </div>
+      <div class="project-link">
+        <a href="#"><img src="img/logo-3.png" width="185" height="52" alt="Pink"></a>
+      </div>
+      <div class="project-link">
+        <a href="#"><img src="img/logo-4.png" width="173" height="84" alt="MISHKA"></a>
+      </div>
     </div>
     </main>
     <footer class="main-footer">
-      <div class="address-on-map">
+      <!--<div class="address-on-map">
          <img src="http://placehold.it/150x100" width="150" height="100" alt="">
-      </div>
+      </div>--><!--Не знаю пока как расположить карту -->
       <div class="container">
         <div class="footer-contacts">
         <h3 class="footer-contacts-title"> NЁRDS DESIGN STUDIO</h3>
@@ -114,15 +120,15 @@
         </p>
       <a class="btn-mail" href="#"> напишите нам </a>
     </div>
-       <div class="footer-social">
+       <div class="footer-social clearfix">
          <div class="promo">
          <h2 class="footer-social-title"> Давайте дружить, это выгодно! </h2>
          <p> Скидка 10% для друзей из социальных сетей. </p>
          </div>
          <div class="social-media-box">
-         <a class="social-btn social-btn" href="#">Вконтакте</a>
-         <a class="social-btn social-btn" href="#">Фейсбук</a>
-         <a class="social-btn social-btn" href="#">Инстаграм</a>
+         <a class="social-btn social-btn" href="#">VK</a>
+         <a class="social-btn social-btn" href="#">FB</a>
+         <a class="social-btn social-btn" href="#">INSTA</a>
        </div>
      </div>
       </div>
