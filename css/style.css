@@ -26,14 +26,14 @@ h2 {
 }
 .main-header {
   outline-color: green solid 1px;
-  margin-bottom: 18px;
+  /*margin-bottom: 18px;*/
 }
 .container {
   width: 1160px;
   padding: 0 20px;
   margin: 0 auto;
   outline: darkcyan solid 1px;
-  margin-bottom: 18px;
+  /*margin-bottom: 18px;*/
 }
 .main-navigation {
   outline: blue solid 1px;
@@ -51,7 +51,7 @@ h2 {
   outline: magenta solid 1px;
   margin-bottom: 80px;
 }
-/*.about-us-features { не знаю как быть с картинками и текстом???
+/*.about-us-features { не знаю как быть с картинками и текстом в слайдере???
   width: ;
 }*/
 .services {
@@ -93,7 +93,7 @@ h2 {
 .our-project-links {
   width: 1160px;
   outline: grey solid 1px;
-  margin-bottom: 53px;
+  margin-bottom: 84px;
 }
 .project-link {
   width: 260px;
@@ -109,7 +109,7 @@ h2 {
 .footer-contacts {
   width: 320px;
   height: 310px;
-  margin-top: 55px;
+  margin-top: 60px;
   outline: red solid 1px;
 }
 .footer-social {
@@ -119,15 +119,17 @@ h2 {
   outline: orange solid 1px;
 }
 .promo {
-  width: 760px;
-  height: 217px;
+  width: 800px;
+  height: 216px;
   outline: black solid 1px;
+  float: right;
 }
 .social-media-box {
   width: 300px;
-  heigth: 217px;
+  height: 216px;
   float: left;
-  outline: black solid 1px;
+  margin-right: 60px;
+  background-color: yellow;
 }
 .catalog-title {
   width: 1160px;
@@ -137,19 +139,20 @@ h2 {
 .page-body {
   width: 1160px;
   background-color: lightgreen;
+  padding-top: 56px;
 }
 .left-column {
   width: 260px;
   height: 780px;
   background-color: darkcyan;
-  margin: 56px 140px 0 0;
+  /*margin: 56px 140px 0 0;*//* заменяет padding-top: 56px в page-body */
   float: left;
 }
 .sample-list {
   width: 760px;
   height: 2000px;
   float: right;
-  margin-top: 56px;
+  /*margin-top: 56px;*//* заменяет padding-top: 56px в page-body */
   background-color: coral;
 }
 .gallery-sample {
@@ -168,8 +171,8 @@ h2 {
   width: 480px;
   height: 50px;
   background-color: brown;
-  float: left;
-  margin-top: 62px;
+  float: right;
+  /*margin-top: 62px;*/
 }
 .gallery-filter {
   width: 760px;
