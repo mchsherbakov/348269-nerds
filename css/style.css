@@ -35,6 +35,10 @@ h2 {
   outline: darkcyan solid 1px;
   /*margin-bottom: 18px;*/
 }
+.header-menu{
+  width: 1160px;
+  outline: black solid 1px;
+}
 .main-navigation {
   outline: blue solid 1px;
   width: 980px;
@@ -49,6 +53,7 @@ h2 {
 .slider {
   width: 1160px;
   outline: magenta solid 1px;
+  float: left;
   margin-bottom: 80px;
 }
 /*.about-us-features { не знаю как быть с картинками и текстом в слайдере???
@@ -106,11 +111,22 @@ h2 {
   float: right;
   margin-right: 0;
 }
+.footer-top {
+  width: 1160px;
+  background-color: lightblue;
+}
 .footer-contacts {
   width: 320px;
   height: 310px;
-  margin-top: 60px;
+  margin-top: 55px;
+  margin-bottom: 55px;
   outline: red solid 1px;
+  float: left;
+}
+.address-on-map {
+  width: 700px;
+  background-color: darkblue;
+  float: right;
 }
 .footer-social {
   width: 1160px;
@@ -135,11 +151,13 @@ h2 {
   width: 1160px;
   height: 165px;
   background-color: orange;
+  float: left;
 }
 .page-body {
   width: 1160px;
   background-color: lightgreen;
   padding-top: 56px;
+  margin-bottom: 60px;
 }
 .left-column {
   width: 260px;
@@ -150,10 +168,13 @@ h2 {
 }
 .sample-list {
   width: 760px;
-  height: 2000px;
   float: right;
   /*margin-top: 56px;*//* заменяет padding-top: 56px в page-body */
   background-color: coral;
+}
+.gallery {
+  width: 760px;
+  background-color: pink;
 }
 .gallery-sample {
   width: 360px;
@@ -171,8 +192,8 @@ h2 {
   width: 480px;
   height: 50px;
   background-color: brown;
-  float: right;
-  /*margin-top: 62px;*/
+  float: left;
+  margin-top: 60px;
 }
 .gallery-filter {
   width: 760px;
