@@ -26,14 +26,17 @@ h2 {
 }
 .main-header {
   outline-color: green solid 1px;
-  /*margin-bottom: 18px;*/
+  background-color: darkgrey;
 }
 .container {
   width: 1160px;
   padding: 0 20px;
   margin: 0 auto;
   outline: darkcyan solid 1px;
-  /*margin-bottom: 18px;*/
+}
+.nav-block {
+  width: 1160px;
+  background-color: yellow;
 }
 .header-menu{
   width: 1160px;
@@ -47,18 +50,20 @@ h2 {
 .basket {
   outline: red solid 1px;
   width: 160px;
-  height: 65px;
+  min-height: 65px;
   float: right;
 }
 .slider {
   width: 1160px;
   outline: magenta solid 1px;
-  float: left;
   margin-bottom: 80px;
 }
-/*.about-us-features { не знаю как быть с картинками и текстом в слайдере???
-  width: ;
-}*/
+.catalog-title {
+  width: 1160px;
+  min-height: 165px;
+  background-color: orange;
+  outline: magenta solid 1px;
+}
 .services {
   width: 1100px;
   outline: black solid 1px;
@@ -66,7 +71,7 @@ h2 {
 }
 .services-items {
   width: 300px;
-  height: 347px;
+  min-height: 347px;
   outline: pink solid 1px;
 }
 .si-left {
@@ -102,7 +107,7 @@ h2 {
 }
 .project-link {
   width: 260px;
-  height: 180px;
+  min-height: 180px;
   margin-right: 40px;
   outline: cyan solid 1px;
   float: left;
@@ -117,7 +122,7 @@ h2 {
 }
 .footer-contacts {
   width: 320px;
-  height: 310px;
+  min-height: 310px;
   margin-top: 55px;
   margin-bottom: 55px;
   outline: red solid 1px;
@@ -129,28 +134,22 @@ h2 {
 }
 .footer-social {
   width: 1160px;
-  height: 216px;
+  min-height: 216px;
   margin-top: 55px;
   outline: orange solid 1px;
 }
 .promo {
   width: 800px;
-  height: 216px;
+  min-height: 216px;
   outline: black solid 1px;
   float: right;
 }
 .social-media-box {
   width: 300px;
-  height: 216px;
+  min-height: 216px;
   float: left;
   margin-right: 60px;
   background-color: yellow;
-}
-.catalog-title {
-  width: 1160px;
-  height: 165px;
-  background-color: orange;
-  float: left;
 }
 .page-body {
   width: 1160px;
@@ -160,7 +159,7 @@ h2 {
 }
 .left-column {
   width: 260px;
-  height: 780px;
+  min-height: 780px;
   background-color: darkcyan;
   /*margin: 56px 140px 0 0;*//* заменяет padding-top: 56px в page-body */
   float: left;
@@ -177,7 +176,7 @@ h2 {
 }
 .gallery-sample {
   width: 360px;
-  height: 618px;
+  min-height: 618px;
   outline: cyan solid 1px;
   float: left;
   margin-right: 40px;
@@ -189,7 +188,7 @@ h2 {
 }
 .page-nav {
   width: 480px;
-  height: 50px;
+  min-height: 50px;
   background-color: brown;
   float: left;
   margin-top: 60px;
@@ -197,4 +196,47 @@ h2 {
 .gallery-filter {
   width: 760px;
   height: 78px;
+}
+.popup-container {
+  width: 1160px;
+  padding: 0 20px;
+  margin: 0 auto;
+  outline: darkcyan solid 1px;
+  /*display: none;*/
+}
+.popup-window {
+  width: 960px;
+  min-height: 590px;
+  margin: 0 100px 0;
+  background-color: lightgreen;
+}
+.popup-title {
+  width: 840px;
+  min-height: 124px;
+  margin-left:60px;
+  margin-right: 60px;
+  background-color: #8904B1;
+}
+.popup-head {
+  width: 500px;
+  min-height: 68px;
+  margin-top: 56px;
+  margin-left: 40px;
+  float: left;
+  outline: black solid 1px;
+}
+.popup-cls-btn {
+  width: 80px;
+  min-height: 68px;
+  float:right;
+  margin-top: 56px;
+  margin-right: 20px;
+  outline: black solid 1px;
+}
+.send-form {
+  width: 760px;
+  min-height: 466px;
+  background-color: coral;
+  margin-left: 100px;
+  margin-right: 100px;
 }

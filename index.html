@@ -7,7 +7,8 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container clearfix">
+      <div class="container">
+        <div class="nav-block clearfix">
         <nav class="main-navigation">
           <a ><img src="img/nerds-logo.png" width="160" height="65" alt="Nerds-logo"></a>
           <ul>
@@ -28,6 +29,7 @@
       <div class="basket">
         <a href="#"> <img src="img/cart-icon.png" width="15" height="15" alt="basket">корзина </a>
       </div>
+    </div>
       <!--Slider-->
           <div class="slider">
             <div class="about-us-features"><h1> Долго, дорого, скрупулезно. </h1>
@@ -107,12 +109,12 @@
         <a href="#"><img src="img/logo-4.png" width="173" height="84" alt="MISHKA"></a>
       </div>
     </div>
-    </main>
-    <footer class="main-footer">
     <!--<div class="address-on-map"
          <img src="http://placehold.it/150x100" width="150" height="100" alt="map">
     </div>-->
-    <div class="container">
+    </main>
+    <footer class="main-footer">
+      <div class="container">
         <div class="footer-top clearfix">
           <div class="footer-contacts">
             <h3 class="footer-contacts-title"> NЁRDS DESIGN STUDIO</h3>
@@ -137,5 +139,24 @@
      </div>
       </div>
     </footer>
+    <div class="popup-container">
+      <div class="popup-window clearfix">
+        <div class="popup-title clearfix">
+          <div class="popup-head"><h2 class="write-us"> Напишите нам </h2></div>
+          <div class="popup-cls-btn"><img src="img/close-crose.png" width="21" height="21"></div>
+        </div>
+      <div class="send-form">
+        <form action="#" method="post">
+            <label for="name-field">Ваше имя:</label><br>
+            <input type="text" name="name" id="name-field" value="Представьтесь, пожалуйста"></input><br>
+            <label for="email-field">Ваш e-mail:</label><br>
+            <input type="text" name="email" id="email-field" value="Для отправки отчета"></input></br>
+            <label>Текст письма:</label><br>
+            <textarea name="info" id="info-about" rows="3" value="В свободной форме">В свободной форме</textarea><br>
+            <input type="submit" value="отправить"></input>
+        </form>
+      </div>
+      </div>
+    </div>
 </body>
 </html>
