@@ -3,37 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <div class="container">
-        <div class="nav-block clearfix">
-        <nav class="main-navigation">
-          <a ><img src="img/nerds-logo.png" width="160" height="65" alt="Nerds-logo"></a>
-          <ul>
+      <div class="nav-block clearfix"> <!-- yellow-->
+      <div class="logo-img">
+          <a><img src="img/nerds-logo.png" width="160" height="65" alt="Nerds-logo"></a>
+      </div>
+      <nav class="main-navigation">   <!-- blue_solid-->
+        <ul>
             <li>
               <a href="#"> студия </a>
             </li>
             <li>
               <a href="#"> клиенты </a>
             </li>
-            <li>
+            <li class="active">
               <a href="#"> Магазин </a>
             </li>
             <li>
-              <a href="#"> контакты </a>
+              <a class="last" href="#"> контакты </a>
             </li>
-            </ul>
-        </nav>
-      <div class="basket">
-        <a href="#"> <img src="img/cart-icon.png" width="15" height="15" alt="basket">корзина </a>
-      </div>
+        </ul>
+    </nav>
+    <div class="basket">
+      <a class="basket-icon" href="#"> корзина </a> <!-- <img src="img/cart-icon.png" width="15" height="15" alt="basket">-->
     </div>
+  </div>
       <div class="catalog-title">
         <h1 class="catalog-title"> Магазин готовых шаблонов </h1>
       </div>
-      </div>
+    </div>
     </header>
     <main class="container">
     <div class="page-body clearfix">
@@ -121,23 +125,23 @@
     </div>
   </div>
 </div>
-<!--<div class="address-on-map"
+<div class="main-bottom clearfix">
+<div class="address-on-map"
      <img src="http://placehold.it/150x100" width="150" height="100" alt="map">
-</div>-->
+</div>
+<div class="contacts">
+    <h3 class="contacts-title"> NЁRDS DESIGN STUDIO</h3>
+    <p>
+      1911186, Санкт-Петербург,<br>
+      ул. Б.Конюшенная, д. 19/8<br>
+      тел. +7(812)275-75-75
+    </p>
+    <a class="btn-mail" href="#"> напишите нам </a>
+</div>
+</div>
 </main>
 <footer class="main-footer">
   <div class="container">
-    <div class="footer-top clearfix">
-      <div class="footer-contacts">
-        <h3 class="footer-contacts-title"> NЁRDS DESIGN STUDIO</h3>
-        <p>
-          1911186, Санкт-Петербург,<br>
-          ул. Б.Конюшенная, д. 19/8<br>
-          тел. +7(812)275-75-75
-        </p>
-        <a class="btn-mail" href="#"> напишите нам </a>
-    </div>
-</div>
    <div class="footer-social clearfix">
      <div class="promo">
      <h2 class="footer-social-title"> Давайте дружить, это выгодно! </h2>
