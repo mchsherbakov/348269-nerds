@@ -3,37 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <div class="container">
-      <div class="nav-block clearfix"> <!-- yellow-->
-      <div class="logo-img">
-          <a><img src="img/nerds-logo.png" width="160" height="65" alt="Nerds-logo"></a>
+        <div class="nav-block clearfix"> <!-- yellow-->
+        <div class="logo-img">
+            <a><img src="img/nerds-logo.png" width="160" height="65" alt="Nerds-logo"></a>
+        </div>
+        <nav class="main-navigation">   <!-- blue_solid-->
+          <ul>
+              <li>
+                <a href="#"> студия </a>
+              </li>
+              <li>
+                <a href="#"> клиенты </a>
+              </li>
+              <li>
+                <a href="#"> Магазин </a>
+              </li>
+              <li>
+                <a href="#"> контакты </a>
+              </li>
+          </ul>
+      </nav>
+      <div class="basket">
+        <a class="basket-icon" href="#"> корзина </a> <!-- <img src="img/cart-icon.png" width="15" height="15" alt="basket">-->
       </div>
-      <nav class="main-navigation">   <!-- blue_solid-->
-        <ul>
-            <li>
-              <a href="#"> студия </a>
-            </li>
-            <li>
-              <a href="#"> клиенты </a>
-            </li>
-            <li class="active">
-              <a href="#"> Магазин </a>
-            </li>
-            <li>
-              <a class="last" href="#"> контакты </a>
-            </li>
-        </ul>
-    </nav>
-    <div class="basket">
-      <a class="basket-icon" href="#"> корзина </a> <!-- <img src="img/cart-icon.png" width="15" height="15" alt="basket">-->
     </div>
-  </div>
       <div class="catalog-title">
         <h1 class="catalog-title"> Магазин готовых шаблонов </h1>
       </div>
@@ -42,21 +42,31 @@
     <main class="container">
     <div class="page-body clearfix">
     <div class="left-column">
-    <form action="#" method="get" class="catalog-block">
-      <fieldset>
-        <legend> стоимость: </legend>
-        <div></div><!--Ползунок-->
-      </fieldset>
-      <fieldset>
-        <legend> сетка: </legend>
-        <ul class="grid-selector-title">
+      <div class="range-filter-title"><b>стоимость:</b></div>
+      <form action="form.php" method="get" class="catalog-block">
+      <div class="range-filter">
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="toggle toggle-min"></div>
+            <div class="toggle toggle-max"></div>
+          </div>
+          <div class="price-controls">
+            <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+            <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+          </div>
+      </div>
+      <div class="grid-block">
+        <div class="grid-title"><b> сетка: </b></div>
+        <ul>
         <li class="grid-sel-btn"><label><input type="radio" name="grid-sel-rbtn" value="adaptive"> Адаптивная </label></li>
         <li class="grid-sel-btn"><label><input type="radio" name="grid-sel-rbtn" value="fixed"> Фиксированная </label></li>
         <li class="grid-sel-btn"><label><input type="radio" name="grid-sel-rbtn" value="resin"> Резиновая </label></li>
         </ul>
-      </fieldset>
-      <fieldset>
-        <legend> особенности: </legend>
+      </div>
+      <div class="features-block">
+        <div class="features-title"> <b> особенности: </b></div>
       <ul>
         <li class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb-1" value="slider"> Слайдер </label></li>
         <li class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb-2" value="block"> Блок преимуществ </label></li>
@@ -64,10 +74,10 @@
         <li class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb-4" value="gallery"> Галерея </label></li>
         <li class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb-5" value="basket"> Корзина </label></li>
       </ul>
+    </div>
       <div class="catalog-block-btn">
         <input type="submit" name="catalog-show-btn" value="Показать">
       </div>
-      </fieldset>
     </form>
   </div>
   <div class="sample-list">
@@ -126,50 +136,50 @@
   </div>
 </div>
 <div class="main-bottom clearfix">
-<div class="address-on-map"
-     <img src="http://placehold.it/150x100" width="150" height="100" alt="map">
+<div class="address-on-map">
+     <img src="img/map-and-marker.jpg" width="1160" height="416" alt="map">
 </div>
 <div class="contacts">
     <h3 class="contacts-title"> NЁRDS DESIGN STUDIO</h3>
     <p>
       1911186, Санкт-Петербург,<br>
       ул. Б.Конюшенная, д. 19/8<br>
+      <br>
       тел. +7(812)275-75-75
     </p>
-    <a class="btn-mail" href="#"> напишите нам </a>
+    <a class="btn" href="#"> напишите нам </a>
 </div>
 </div>
 </main>
 <footer class="main-footer">
   <div class="container">
-   <div class="footer-social clearfix">
+    <div class="footer-social clearfix">
      <div class="promo">
      <h2 class="footer-social-title"> Давайте дружить, это выгодно! </h2>
      <p> Скидка 10% для друзей из социальных сетей. </p>
      </div>
      <div class="social-media-box">
-     <a class="social-btn social-btn" href="#">VK</a>
-     <a class="social-btn social-btn" href="#">FB</a>
-     <a class="social-btn social-btn" href="#">INSTA</a>
+     <a class="social-btn social-btn-vk" href="#">VK</a>
+     <a class="social-btn social-btn-fb" href="#">FB</a>
+     <a class="social-btn social-btn-in" href="#">IN</a>
    </div>
  </div>
   </div>
 </footer>
 <div class="popup-container">
-  <div class="popup-window clearfix">
-    <div class="popup-title clearfix">
-      <div class="popup-head"><h2 class="write-us"> Напишите нам </h2></div>
-      <div class="popup-cls-btn"><img src="img/close-cross.png" width="21" height="21"></div>
-    </div>
+  <div class="popup-window">
+    <h2 class="popup-title"> Напишите нам </h2>
+      <button class="popup-cls-btn" type="button" title="Закрыть">Закрыть</button>
+
   <div class="send-form">
-    <form action="#" method="post">
-        <label for="name-field">Ваше имя:</label><br>
-        <input type="text" name="name" id="name-field" value="Представьтесь, пожалуйста"></input><br>
-        <label for="email-field">Ваш e-mail:</label><br>
-        <input type="text" name="email" id="email-field" value="Для отправки отчета"></input></br>
-        <label>Текст письма:</label><br>
-        <textarea name="info" id="info-about" rows="3" value="В свободной форме">В свободной форме</textarea><br>
-        <input type="submit" value="отправить"></input>
+    <form class="write-us" action="#" method="post">
+        <label class="name-field" for="name-field"> Ваше имя:</label><br>
+        <input class="name" type="text" name="name" id="name-field" value="Представьтесь, пожалуйста"><br>
+        <label class="email-label" for="email-field"> Ваш e-mail:</label><br>
+        <input class="email" type="text" name="email" id="email-field" value="Для отправки отчета"><br>
+        <label class="email-text"> Текст письма:</label><br>
+        <textarea name="info" id="info-about" rows="3"> В свободной форме</textarea>
+        <input class="send-btn" type="submit" value="отправить">
     </form>
   </div>
   </div>
