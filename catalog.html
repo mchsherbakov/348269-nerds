@@ -22,7 +22,7 @@
               <li>
                 <a href="#"> клиенты </a>
               </li>
-              <li>
+              <li class="active">
                 <a href="#"> Магазин </a>
               </li>
               <li>
@@ -59,21 +59,27 @@
       </div>
       <div class="grid-block">
         <div class="grid-title"><b> сетка: </b></div>
-        <ul>
-        <li class="grid-sel-btn"><label><input type="radio" name="grid-sel-rbtn" value="adaptive"> Адаптивная </label></li>
-        <li class="grid-sel-btn"><label><input type="radio" name="grid-sel-rbtn" value="fixed"> Фиксированная </label></li>
-        <li class="grid-sel-btn"><label><input type="radio" name="grid-sel-rbtn" value="resin"> Резиновая </label></li>
-        </ul>
+      <form class="grid-block"action="#" method="get">
+        <input type="radio" name="grid-sel-rbtn" value="adaptive" id="rb1">
+        <label for="rb1"> Адаптивная </label>
+        <input type="radio" name="grid-sel-rbtn" value="fixed" id="rb2">
+        <label for="rb2"> Фиксированная </label>
+        <input type="radio" name="grid-sel-rbtn" value="resin" id="rb3">
+        <label for="rb3"> Резиновая </label>
+      </form>
       </div>
       <div class="features-block">
         <div class="features-title"> <b> особенности: </b></div>
-      <ul>
-        <li class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb-1" value="slider"> Слайдер </label></li>
-        <li class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb-2" value="block"> Блок преимуществ </label></li>
-        <li class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb-3" value="news"> Новости </label></li>
-        <li class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb-4" value="gallery"> Галерея </label></li>
-        <li class="speciality-chkb"><label><input type="checkbox" name="speciality-chkb-5" value="basket"> Корзина </label></li>
-      </ul>
+        <input type="checkbox" name="speciality-chkb-1" value="slider" id="ch1">
+        <label for="ch1"> Слайдер </label>
+        <input type="checkbox" name="speciality-chkb-2" value="block" id="ch2">
+        <label for="ch2"> Блок преимуществ </label>
+        <input type="checkbox" name="speciality-chkb-3" value="news" id="ch3">
+        <label for="ch3"> Новости </label>
+        <input type="checkbox" name="speciality-chkb-4" value="gallery" id="ch4">
+        <label for="ch4"> Галерея </label>
+        <input type="checkbox" name="speciality-chkb-5" value="basket" id="ch5">
+        <label for="ch5"> Корзина </label>
     </div>
       <div class="catalog-block-btn">
         <input type="submit" name="catalog-show-btn" value="Показать">
@@ -82,7 +88,7 @@
   </div>
   <div class="sample-list">
      <div class="gallery-filter">
-      <h3 class="gallery-filter-title"> СОРТИРОВАТЬ: </h3>
+      <b class="gallery-filter-title"> СОРТИРОВАТЬ: </b>
       <a href="#"> по цене </a>
       <a href="#"> по типу </a>
       <a href="#"> по названию </a>
@@ -92,10 +98,11 @@
 <!-- Gallery-sample-->
   <div class="gallery clearfix">
     <div class="gallery-sample">
+      <div class="gallery-slider">
       <button class="slider-btn" type="button" name="pic-1"></button>
       <button class="slider-btn" type="button" name="pic-2"></button>
       <button class="slider-btn" type="button" name="pic-3"></button>
-
+      </div>
     <div class="gallery-content">
     <img src="img/img-sedona.jpg" width="360" height="576" alt="Nerds">
     </div>
