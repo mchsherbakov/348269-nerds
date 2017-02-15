@@ -1,6 +1,6 @@
 body {
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     color: #000000;
     line-height: 24px;
     font-weight: 400;
@@ -14,14 +14,14 @@ body {
 }
 h1 {
     font-size: 55px;
-    font-family: Roboto;
+    font-family: "Roboto";
     color: #000000;
     line-height: 55px;
     font-weight: normal;
 }
 h2 {
    font-size: 24px;
-   font-family: Roboto;
+   font-family: "Roboto";
    color: #000000;
    line-height: 30px;
    font-weight:  normal;
@@ -135,51 +135,51 @@ h2 {
   position: relative;
 }
 .slider-controls{
-    position:absolute;
-    bottom:97px;
-    left:50%;
-    width:200px;
-    height:18px;
-    margin-left:-100px;
-    text-align:center;
-    z-index:1000;
+    position: absolute;
+    bottom: 97px;
+    left: 50%;
+    width: 200px;
+    height: 18px;
+    margin-left: -100px;
+    text-align: center;
+    z-index: 1000;
 }
 .slider-controls i{
-    display:inline-block;
-    width:10px;
-    height:10px;
-    margin:0 3px;
-    background:white;
-    border:3px solid white;
-    vertical-align:top;
-    border-radius:50%;
-    cursor:pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    background: white;
+    border: 3px solid white;
+    vertical-align: top;
+    border-radius: 50%;
+    cursor: pointer;
 }
 .slider-controls i:nth-child(2) {
   margin-left: 13px;
   margin-right: 13px;
 }
 .slider-controls .active{
-    background:#c1c1c1;
+    background: #c1c1c1;
 }
 .slide{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    overflow:hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 .slide-text{
     width: 550px;
     padding: 52px 0;
-    color:#283136;
+    color: #283136;
 }
 .slide-title{
-    font-size:55px;
-    line-height:55px;
+    font-size: 55px;
+    line-height: 55px;
     font-weight: bold;
-    color:black;
+    color: black;
     margin-top: 25px;
 }
 .slide p {
@@ -188,42 +188,42 @@ h2 {
   padding-top: 10px;
 }
 .slide .btn{
-    display:block;
-    width:240px;
-    padding:16px 0;
+    display: block;
+    width: 240px;
+    padding: 16px 0;
     margin-top: 39px;
-    font-size:16px;
+    font-size: 16px;
     line-height: 18px;
-    color:white;
-    text-transform:uppercase;
-    text-align:center;
-    text-decoration:none;
-    background:#fb565a;
-    border-radius:3px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    background: #fb565a;
+    border-radius: 3px;
 }
 .slide .btn:hover {
   background: #e74246;
 }
 .slide:nth-child(1){
-    background-image:url('../img/slide1.png');
-    background-repeat:no-repeat;
-    background-position:93% 18px;
+    background-image: url("../img/slide1.png");
+    background-repeat: no-repeat;
+    background-position: 93% 18px;
 }
 .slide{
   display: none;
 }
 .slide:nth-child(3){
-    display:block;
+    display: block;
 }
 .slide:nth-child(2){
-    background-image:url('../img/slide2.png');
-    background-repeat:no-repeat;
-    background-position:100% 0px;
+    background-image: url("../img/slide2.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0px;
 }
 .slide:nth-child(3){
-    background-image:url('../img/slide3.png');
-    background-repeat:no-repeat;
-    background-position:100% 20px;
+    background-image: url("../img/slide3.png");
+    background-repeat: no-repeat;
+    background-position: 100% 20px;
 }
 .catalog-title {
   width: 1160px;
@@ -359,34 +359,32 @@ h2 {
   left: 40px;
 }
 .about-us-statistic table {
-  display: inline-block;
-  /*width: 400px;*/
+  display: block;
   margin-top: 258px;
-  margin-left: 40px;
-  outline: 1px dotted black;
+  margin-left: 38px;
 }
 .about-us-statistic caption {
   margin-top: 25px;
   margin-bottom: 17px;
   text-transform: uppercase;
   font-weight: bold;
-  outline: 1px dotted black;
 }
 .row-1 {
   font-size: 45px;
-  line-height: 10px;
+  line-height: 45px;
   font-weight: bold;
-  align: left;
-  outline: 1px dotted black;
+}
+.row-1 td {
+  padding-top: 22px;
+  padding-right: 20px;
+  padding-left: ;
+  text-align: left;
+  font-size: 45px;
+  line-height: 45px;
 }
 .row-1 sup {
   font-size: 25px;
   font-weight: bold;
-}
-.row-1 td {
-  font-size: 45px;
-  line-height: 10px;
-  outline: 1px dotted red;
 }
 .row-2 {
   font-size: 16px;
@@ -394,8 +392,7 @@ h2 {
 }
 .row-2 td {
   align: left;
-  padding-top: 2px;
-  outline: 1px dotted green;
+  padding-top: 15px;
 }
 .our-project-links {
   width: 1160px;
@@ -464,7 +461,6 @@ h2 {
 .contacts p {
   font-size: 16px;
   line-height: 18px;
-  font-family: Roboto;
   margin: 0;
   padding: 0;
   margin-top: 25px;
@@ -556,7 +552,7 @@ h2 {
   background-position: -5px -125px;
 }
 .social-btn-vk:hover {
-  background: #e74246 url("../img/sprite.png") no-repeat center;;
+  background: #e74246 url("../img/sprite.png") no-repeat center;
   background-position: -10px -163px;
   border: 25px solid #e74246;
 }
@@ -646,7 +642,7 @@ h2 {
   text-align: right;
 }
 .price-controls input {
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   width: 60px;
   margin-left: 10px;
@@ -758,7 +754,7 @@ input[type="checkbox"]:checked + label::after {
   left: -1px;
   width: 27px;
   height: 23px;
-  background: url(../img/sprite.png) no-repeat;
+  background: url("../img/sprite.png") no-repeat;
   background-position: -9px -45px;
   opacity: 0.5;
 }
@@ -804,12 +800,23 @@ input[type="checkbox"]:checked + label::after {
   margin-right: 263px;
 }
 .gallery-filter a {
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #b2b2b2;
+  color: #000000;
+  opacity: 0.3;
+  margin-right: 22px;
+}
+.gallery-filter a:hover {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.6;
   margin-right: 22px;
 }
 .gallery-filter a:nth-child(5) {
@@ -822,7 +829,8 @@ input[type="checkbox"]:checked + label::after {
     right: 27px;
     top: 10px;
     border: 5px solid transparent;
-    border-left: 10px solid #cccccc;
+    border-left: 10px solid #000000;
+    opacity: 0.3;
     transform: rotate(90deg);
 }
 .gallery-filter a:nth-child(5):hover::after  {
@@ -831,11 +839,11 @@ input[type="checkbox"]:checked + label::after {
   right: 27px;
   top: 10px;
   border: 5px solid transparent;
-  border-left: 10px solid #999999;
+  border-left: 10px solid #000000;
+  opacity: 0.6;
   transform: rotate(90deg);
 }
 .gallery-filter a:nth-child(6) {
-  background: ;
   width: 1px;
   height: 1px;
 }
@@ -845,7 +853,8 @@ input[type="checkbox"]:checked + label::after {
     top: 5px;
     right: -2px;
     border: 5px solid transparent;
-    border-left: 10px solid #cccccc;
+    border-left: 10px solid #000000;
+    opacity: 0.3;
     transform: rotate(270deg);
 }
 .gallery-filter a:nth-child(6):hover::after  {
@@ -854,8 +863,21 @@ input[type="checkbox"]:checked + label::after {
   top: 5px;
   right: -2px;
   border: 5px solid transparent;
-  border-left: 10px solid #999999;
+  border-left: 10px solid #000000;
+  opacity: 0.6;
   transform: rotate(270deg);
+}
+.gallery-filter a.active {
+  opacity: 1;
+}
+.gallery-filter a:nth-child(5):active::after  {
+  content: "";
+  position: absolute;
+  right: 27px;
+  top: 10px;
+  border: 5px solid #ffffff;
+  border-left: 10px solid #ffffff;
+  transform: rotate(90deg);
 }
 .gallery {
   width: 760px;
@@ -866,7 +888,7 @@ input[type="checkbox"]:checked + label::after {
   max-height: 617px;
   float: left;
   margin-right: 40px;
-  margin-bottom: 35px; /*37*/
+  margin-bottom: 35px;
   position: relative;
 }
 .gallery-sample:nth-child(2n) {
@@ -874,66 +896,56 @@ input[type="checkbox"]:checked + label::after {
   margin-right: 0;
   position: relative;
 }
-.gallery-slider {
-  position: relative;
-  width: 360px;
-  height: 42px;
-  background: #e9e9e9;
-}
-.gallery-slider input[type=radio] {
-  position: absolute;
-  opacity: 0;
-}
-.slider-ctrls {
-  position: absolute;
-  width: 68px;
-  height: 18px;
-  top: 8px;
-  left: 16px;
-}
-.slider-ctrls label {
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  padding: 0;
-  margin: 0;
-  margin-right: 7px;
-  background: white;
-  border: 3px solid white;
-  border-radius: 50%;
-  cursor: poiter;
-}
-/*.price-hover {
-  width: 360px;
-  height: 232px;
-  background: #eeeeee;
-  position: absolute;
-  bottom: 2px;
-  display: none;
-}*/
-.price-hover/*:hover::after*/ {
-  width: 360px;
-  height: 232px;
-  background: #eeeeee;
-  position: absolute;
-  bottom: 0px;/*2px*/
+.gallery-sample:hover .price-hover {
   display: block;
 }
+.gallery-slider {
+  position: relative;
+  width: 332px;
+  height: 10px;
+  padding: 16px 14px;
+  background: #e9e9e9;
+}
+.gallery-slider::after {
+  content: "";
+  display: table;
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  top: 13px;
+  left: 16px;
+  position: absolute;
+  box-shadow: 22px 0 0 0 #fff,
+              44px 0 0 0 #fff;
+}
+.price-hover {
+  width: 360px;
+  height: 232px;
+  background: #eeeeee;
+  position: absolute;
+  bottom: 0px;
+  display: none;
+}
 .hover-title {
+  display: block;
+  text-align: center;
+  margin-top: 27px;
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
-  padding-top: 27px;/*28px*/
-  padding-bottom: 15px;/*14px*/
+  text-decoration: none;
+  color: #000000;
 }
 .hover-description {
+  margin-top: 15px;
+  margin-left: 4px;
   line-height: 18px;
   color: #666666;
   text-align: center;
 }
-.price-hover a {
+.price-hover .price {
   position: absolute;
   bottom: 44px;
   left: 80px;
@@ -1021,6 +1033,7 @@ input[type="checkbox"]:checked + label::after {
   padding: 0 20px;
   margin: 0 auto;
   position: relative;
+  z-index: 1000;
   display: none;
 }
 .popup-window {
@@ -1039,24 +1052,27 @@ input[type="checkbox"]:checked + label::after {
   width: 21px;
   height: 21px;
   font-size: 0;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 .popup-cls-btn::before,
 .popup-cls-btn::after {
   content: "";
   position: absolute;
-  top: 7px;
+  top: 6px;
   right: -2px;
   width: 21px;
-  height: 3px;
+  height: 4px;
   background-color:  #fecccd;
-  border-radius: 1px;
 }
 .popup-cls-btn::before {
   transform: rotate(45deg);
 }
 .popup-cls-btn::after {
   transform: rotate(-45deg);
+}
+.popup-cls-btn:hover::after,
+.popup-cls-btn:hover::before {
+  background-color:  #fb565a;
 }
 .send-form {
   width: 760px;
@@ -1077,7 +1093,7 @@ input[type="checkbox"]:checked + label::after {
     padding-left: 15px;
     font-size: 16px;
     line-height: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     color: #bababa;
     border: 2px solid #e4e8e9;
     border-radius: 4px;
@@ -1093,7 +1109,7 @@ input[type="checkbox"]:checked + label::after {
     padding-top: 10px;
     font-size: 16px;
     line-height: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     color: #bababa;
     border: 2px solid #e4e8e9;
     border-radius: 4px;
@@ -1141,7 +1157,7 @@ input[type="checkbox"]:checked + label::after {
   font-size: 16px;
   text-transform: uppercase;
   line-height: 18px;
-  color:#ffffff;
+  color: #ffffff;
   background: #fb565a;
   border: 1px solid #fb565a;
   border-radius: 2px;
