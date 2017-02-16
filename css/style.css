@@ -412,6 +412,9 @@ h2 {
 .project-link a:hover {
   opacity: 1;
 }
+.project-link .active {
+  opacity: 0.1;
+}
 .project-link:nth-child(1) a {
     margin-top: 65px;
 }
@@ -1011,7 +1014,7 @@ input[type="checkbox"]:checked + label::after {
   margin: 0 auto;
   position: relative;
   z-index: 1000;
-  display: none;
+  display: block;
 }
 .popup-window {
   width: 960px;
@@ -1091,6 +1094,12 @@ input[type="checkbox"]:checked + label::after {
   border: 2px solid #cdd0d2;
   border-radius: 4px;
 }
+.write-us input[type="text"]:focus {
+  color: #000000;
+  outline: none;
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
 .write-us textarea {
     width: 744px;
     height: 100px;
@@ -1106,6 +1115,12 @@ input[type="checkbox"]:checked + label::after {
 }
 .write-us textarea:hover {
   border: 2px solid #cdd0d2;
+  border-radius: 4px;
+}
+.write-us textarea:focus {
+  color: #000000;
+  outline: none;
+  border: 2px solid #000000;
   border-radius: 4px;
 }
 .write-us label {
