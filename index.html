@@ -171,19 +171,24 @@
       <div class="popup-window">
         <h2 class="popup-title"> Напишите нам </h2>
           <button class="popup-cls-btn" type="button" title="Закрыть">Закрыть</button>
-
-      <div class="send-form">
+          <div class="send-form clearfix">
         <form class="write-us" action="#" method="post">
-            <label class="name-field" for="name-field"> Ваше имя:</label><br>
-            <input class="name" type="text" name="name" id="name-field" value="Представьтесь, пожалуйста"><br>
-            <label class="email-label" for="email-field"> Ваш e-mail:</label><br>
-            <input class="email" type="text" name="email" id="email-field" value="Для отправки отчета"><br>
-            <label class="email-text"> Текст письма:</label><br>
+          <div class="name">
+            <label class="name-field" for="name-field"> Ваше имя:</label>
+            <input type="text" name="name" id="name-field" value="Представьтесь, пожалуйста">
+          </div>
+          <div class="email">
+            <label class="email-label" for="email-field"> Ваш e-mail:</label>
+            <input type="text" name="email" id="email-field" value="Для отправки отчета">
+          </div>
+          <div class="letter">
+            <label class="email-text"> Текст письма:</label>
             <textarea name="info" id="info-about" rows="3"> В свободной форме</textarea>
+          </div>
             <input class="send-btn" type="submit" value="отправить">
         </form>
       </div>
-      </div>
     </div>
+  </div>
 </body>
 </html>
