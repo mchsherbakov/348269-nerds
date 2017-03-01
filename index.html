@@ -6,7 +6,7 @@
     <title>HTML Academy: Нёрдс</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="css/style-min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -145,8 +145,8 @@
                 </div>
             </div>
         </div>
-        <div class="main-bottom clearfix">
-            <div class="container">
+        <div class="main-bottom clearfix" id="yamap">
+          <div class="container" >
                 <div class="contacts">
                     <h3 class="contacts-title"> NЁRDS DESIGN STUDIO</h3>
                     <p>
@@ -183,11 +183,11 @@
                 <form class="write-us" action="#" method="post">
                     <div class="name">
                         <label class="name-field" for="name-field"> Ваше имя:</label>
-                        <input type="text" name="name" id="name-field" value="Представьтесь, пожалуйста">
+                        <input type="text" name="name" id="name-field" placeholder="Представьтесь, пожалуйста">
                     </div>
                     <div class="email">
                         <label class="email-label" for="email-field"> Ваш e-mail:</label>
-                        <input type="text" name="email" id="email-field" value="Для отправки отчета">
+                        <input type="text" name="email" id="email-field" placeholder="Для отправки отчета">
                     </div>
                     <div class="letter">
                         <label class="email-text"> Текст письма:</label>
@@ -198,6 +198,9 @@
             </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=UldWyY5ph1CQLpNrmUqy6rBgB5BRuVkJ&amp;width=100%25&amp;height=414&amp;id=yamap"></script>
+
 </body>
 
 </html>
